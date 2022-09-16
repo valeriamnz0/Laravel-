@@ -1,0 +1,85 @@
+$color-azul: #02054a;
+$color-rojo: #ff0505;
+$color-verde: #5FDB28;
+$color-blanco: #fff;
+$color-gris: #343f40;
+$color-gris-claro:#adbdbd;
+
+.btn-primo{ //boton principal
+    background-color:$color-azul; 
+    border-color:$color-azul;
+}
+
+.btn-eliminar{ //botones para eliminar
+    background-color:$color-rojo; 
+    border-color:$color-rojo;
+}
+
+.btn-editar{ // botones para editar
+    background-color:$color-verde; 
+    border-color:$color-verde;
+}
+
+.btn-cerrar{
+    background-color:$color-gris; 
+    border-color:$color-gris;
+}
+
+.menu-items{
+    &:hover{
+        background-color:$color-azul; 
+        border-color:$color-azul; 
+        color: $color-blanco !important;
+    }
+    /*&:active{
+        text-decoration: underline;
+        color: $color-azul;
+    } */
+}
+
+/*a.menu-items:active {
+    text-decoration: underline !important;
+    color: $color-azul !important  ;
+}*/
+#sidebar-menu>ul>li>a.active {
+    color: $color-azul ;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+/*a:visited{
+    text-decoration: underline;
+    color: $color-azul;
+}*/
+
+.color-fondo{
+background-color: $color-gris-claro;
+}
+
+.color-navbar{
+    background-color: $color-blanco;
+}
+
+.color-letra{
+    color: $color-gris;
+}
+
+.color-fondo-modal{
+    background-color: $color-blanco;
+}
+
+.alinear-centrado{
+    text-align: center;
+}
+
+.radio-background input:checked {
+    background-color: $color-azul !important;
+}
+
+.color-links{ 
+    color: $color-azul;
+        &:hover{
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            color: $color-azul;
+        }
+}
